@@ -86,5 +86,38 @@
     margin:20px auto;
    
 }
+.speaker{
+    padding:50px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.speaker h1{
+    grid-column: 1/3;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.card{
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+.card img{
+    width:100%;
+}
+
+.card-content{
+    padding:15px;
+}
+
+.card-content h5{
+    color:blue;
+}
+
+.card-content p{
+    color:gray;
+}
 
 
