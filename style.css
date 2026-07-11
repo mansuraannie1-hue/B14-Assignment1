@@ -187,3 +187,18 @@
 .faq-box p{
     color:gray;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0f1d2d;
+    color: white;
+    padding: 20px 60px;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+}
+
+
